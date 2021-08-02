@@ -15,7 +15,7 @@ const App = () => {
 
     return (
         <BrowserRouter>
-            <Container maxwidth="xl">
+            <Container maxWidth="xl">
                 <NavBar />
                 <Switch>
                     <Route path="/" exact component={() => <Redirect to="/posts" />} />
